@@ -9,7 +9,12 @@ html {
 }
 
 header {
-
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: salmon;
 }
 
 
@@ -18,7 +23,9 @@ header {
     margin: 0 auto;
 }
 
-.navbar-top { 
+.navbar-top {
+    max-width: none;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,25 +38,31 @@ header {
     align-items: center;
 }
 
-.navbar-top ul {
+.logo {
+    width: 7em;
+    margin-right: 2.5em;
+    vertical-align: baseline;
+}
+
+.list-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     vertical-align: super;
-    margin: 0 1em;
+    font-size: 15px;
 }
 
-ul a {
+.list-header a {
     text-decoration: none;
 }
 
-ul li {
+.list-header li {
     margin-right: 1em;
     flex-shrink: 0;
 }
 
-.last-li {
+.last-li-header {
     
     padding: .5em;
     background-color: white;
@@ -58,21 +71,21 @@ ul li {
 
 
 .first-section {
-    background-color: lightgreen
-}
-
-.first-section {
-    background-color: lightgreen;
+    
+    background-color: #b4d0e7
 }
 
 .first-section-main {
-    display: flex;
+    display:flex;
+    position: relative;
+    top:60px
+    
 }
+
 
 .first-section-pic {
     width: 60%;
-    position: relative;
-    top:10rem
+
 }
 
 .second-section {

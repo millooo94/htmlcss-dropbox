@@ -9,7 +9,7 @@ html {
 }
 
 header {
-    background-color: salmon;
+
 }
 
 
@@ -23,6 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1em;
+    background-color: salmon;
 }
 
 .bar-left {
@@ -70,6 +71,8 @@ ul li {
 
 .first-section-pic {
     width: 60%;
+    position: relative;
+    top:10rem
 }
 
 .second-section {

@@ -19,6 +19,7 @@ header {
     left: 0;
     z-index: 99;
     background-color: white;
+    white-space: nowrap;
 
 }
 
@@ -36,11 +37,13 @@ header {
     align-items: center;
     padding: 1em;
     background-color: white;
+    
 }
 
 .logo-header {
     width: 6.5em;
     margin-right: 2em;
+    vertical-align: bottom;
 }
 
 .header-left, .header-right {
@@ -76,6 +79,7 @@ header {
     font-weight: 500;
     background-color: #0061ff;
     color: white;
+    white-space: nowrap;
 }
 
 
@@ -93,7 +97,7 @@ header {
 .first-section-main {
     display: flex;
     position: relative;
-    top: 2.5rem;
+    top: 3.5rem;
 }
 
 .first-section-main-left {
@@ -104,14 +108,15 @@ header {
 
 .first-section-title {
     max-width: 1000px;
-    font-size: 3.7rem;
+    font-size: 4rem;
     font-weight: 800;
 }
 
 
 .first-section-content-paragraph {
-    max-width: 300px;
+    max-width: 250px;
     font-size: .8em;
+    line-height: 1.2em;
 }
 
 
@@ -123,7 +128,7 @@ header {
     font-size: .8em;
     font-weight: 500;
     color: white;
-    background-color: blue;
+    background-color: #0061ff;
 }
 
 .first-section-content-cancel {
@@ -144,14 +149,21 @@ header {
 
 
 .first-section-pic {
-    width: 60%;
+    width: 70%;
     z-index: 0;
 
 }
 
 .second-section {
-    background-color: lightpink;
+    padding-top: 6.5rem
 }
+
+.button-block {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+
 
 
 .business-type {
@@ -173,6 +185,51 @@ header {
 
 .business-type-name {
     border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
 }
+
+.third-section-block {
+    display: flex;
+}
+
+.third-section-pic {
+    width: 100%;
+}
+
+
+
+.fourth-section {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+
+
+.fourth-section-card {
+    width: calc(100% - 1rem / 3); 
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* .fourth-section-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+
+
+
+
+
+
+
+
+
 
 

@@ -167,7 +167,7 @@ header {
 
 
 .business-type {
-    width: calc(100% - 1rem / 3);
+    width: calc((100% / 3) -1rem);
 }
 
 .business-type div {
@@ -209,27 +209,37 @@ header {
 
 
 .fourth-section-card {
-    width: calc(100% - 1rem / 3); 
+    width: calc((100% / 3) - 1rem); 
     display: flex;
     flex-direction: column;
 }
 
 
-
-/* .fourth-section-block {
+.fourth-section-pic {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-} */
+}
 
 
 
+.section-final {
+    width: 100%;
+}
 
+.block-final {
+    width: 10%;
+    /* height: 200px; */
+    background-color: green;
+}
 
+.block-final:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
 
-
-
-
+.pic-final {
+    width: 100px;
+}
 
 
 

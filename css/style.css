@@ -67,7 +67,7 @@ a {
 
 
 .button-2 {
-    padding: .6em .7em .6em .7em;
+    /* padding: .6em .7em .6em .7em; */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -75,6 +75,11 @@ a {
     font-weight: 600;
     background-color: #0061ff;
     color: white;
+}
+
+.button-2 > a {
+    padding: .6em .7em .6em .7em;
+
 }
 
 
@@ -696,9 +701,40 @@ li div {
 .eighth-section-block i {
     position: relative;
     right: 2rem;
+}
 
+.eighth-section-answer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: white;
+    z-index: -1;
+    
+    
+    
+    
+}
+
+.eighth-section-block-fc {
+    position: relative;
+    z-index: 1 ;
+   
+    background-color: white;
 
 }
+
+.eighth-section-block-fc {
+
+}
+
+
+
+
+
+
+
 
 /* Footer */
 

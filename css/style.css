@@ -568,8 +568,7 @@ li div {
 }
 
 
-.block-left2{
-
+.block-left2 {
     display: flex;
 }
 
@@ -583,8 +582,7 @@ li div {
     border: 12px solid #ff1c1c;
 }
 
-.block-right1{
-
+.block-right1 {
     display: flex;
 }
 
@@ -599,8 +597,7 @@ li div {
 }
 
 
-.block-right2{
-
+.block-right2 {
     display: flex;
 }
 
@@ -615,7 +612,19 @@ li div {
 }
 
 .sixth-section-pic-block:hover {
-    filter:brightness(115%);
+    filter:brightness(170%);
+}
+
+.block1:hover {
+    filter:brightness(110%);
+}
+
+.block6:hover {
+    filter:brightness(110%);
+}
+
+.block8:hover {
+    filter:brightness(110%);
 }
 
 
